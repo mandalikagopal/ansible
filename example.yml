@@ -1,6 +1,7 @@
 ---
 
 - name: "my name is gopal"
+  hosts: localhost
   tasks:
       - name: " displaying name"
         debug:
